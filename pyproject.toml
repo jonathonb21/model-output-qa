@@ -1,0 +1,30 @@
+[project]
+name = "model-output-qa"
+version = "0.4.0"
+description = "Model output validation, batch eval, and rubric scoring stub"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Jonathon Brunson", email = "jonathonbrunson21@gmail.com" }]
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pydantic>=2.9.0",
+    "httpx>=0.27.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-httpx>=0.35.0"]
+
+[project.scripts]
+model-output-qa-eval = "model_output_qa.eval.run:main"
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
