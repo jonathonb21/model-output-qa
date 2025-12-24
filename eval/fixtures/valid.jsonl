@@ -1,0 +1,3 @@
+{"prompt_id": "p1", "answer": "def add(a, b):\n    return a + b", "language": "python", "model": "demo-1"}
+{"prompt_id": "sql_01", "answer": "SELECT id FROM users WHERE active = true;", "language": "sql"}
+{"prompt_id": "js_hook", "answer": "export function useCounter(n = 0) { return n; }", "language": "javascript", "tokens": 42}
