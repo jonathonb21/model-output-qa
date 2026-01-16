@@ -1,0 +1,3 @@
+{"prompt_id": "batch_a", "answer": "return sorted(items)", "language": "python"}
+{"prompt_id": "batch_b", "answer": "FIXME rewrite", "language": "python"}
+{"prompt_id": "batch_c", "answer": "fn main() {}", "language": "rust"}
