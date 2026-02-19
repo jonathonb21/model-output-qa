@@ -1,0 +1,2 @@
+{"prompt_id": "unicode_ok", "answer": "def greet():\n    return \"café — 日本語\"", "language": "python"}
+{"prompt_id": "unicode_sql", "answer": "SELECT name FROM café WHERE active = true;", "language": "sql"}

@@ -1,0 +1,4 @@
+{"prompt_id": "edge_tags", "answer": "fn main() { println!(\"hi\"); }", "language": "rust", "tags": ["algo", "starter"], "confidence": 0.92}
+{"prompt_id": "edge_blank_model", "answer": "echo hello", "language": "bash", "model": "   "}
+{"prompt_id": "edge_ai_refusal", "answer": "As an AI language model I cannot assist with that request.", "language": "python"}
+{"prompt_id": "edge_dup", "answer": "return 1", "language": "typescript", "model": "demo-v2", "tokens": 12}
